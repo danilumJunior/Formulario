@@ -34,6 +34,14 @@ Este projeto é um convite digital para uma festa, desenvolvido com foco na prá
 
 ---
 
+## 🌐 Visualizar o Projeto Online (GitHub Pages)
+
+Você pode acessar uma demonstração ao vivo deste projeto diretamente no seu navegador, hospedada pelo GitHub Pages:
+
+🔗 **[Acessar Demonstração Online](https://danilumjunior.github.io/Formulario/)**
+
+---
+
 ## 📊 Estrutura de Arquivos
 
 .

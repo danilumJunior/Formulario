@@ -44,8 +44,6 @@ Você pode acessar uma demonstração ao vivo deste projeto diretamente no seu n
 
 ## 📊 Estrutura de Arquivos
 
-.
-
 ├── index.html                  # Estrutura principal da página
 
 ├── img/                        # Pasta para imagens

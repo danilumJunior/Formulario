@@ -1,0 +1,25 @@
+
+h1, h2, h3 {
+    color: var(--cor-principal);
+    text-align: center;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 2.8em;
+    margin-top: 0;
+    padding-top: 40px;
+}
+h2 {
+    font-size: 2.2em;
+    margin-top: 40px;
+}
+h3 {
+    font-size: 1.6em;
+}
+hr {
+    border: none;
+    border-top: 1px dashed var(--cor-borda);
+    margin: 60px auto;
+    width: 70%;
+    max-width: 800px;
+}

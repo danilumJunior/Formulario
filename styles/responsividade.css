@@ -1,0 +1,99 @@
+
+
+
+@media (max-width: 992px) {
+    main section {
+        margin: 30px auto;
+        padding: 25px;
+        max-width: 95%; 
+    }
+
+    .palestrantes_container {
+        gap: 20px; 
+    }
+
+    .palestrantes_card {
+        flex: 1 1 280px; 
+    }
+
+    h1 { font-size: 2.5em; }
+    h2 { font-size: 2em; }
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2em;
+        padding-top: 30px;
+    }
+    h2 {
+        font-size: 1.8em;
+        margin-top: 30px;
+    }
+    h3 {
+        font-size: 1.4em;
+    }
+
+    main section {
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    .palestrantes_container {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px; 
+    }
+
+    .palestrantes_card {
+        max-width: 90%;
+        flex: 0 0 auto;
+        width: 320px;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    button[type="submit"] {
+        font-size: 0.95em;
+        padding: 10px;
+    }
+
+    hr {
+        margin: 40px auto;
+    }
+}
+
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8em;
+        padding-top: 25px;
+    }
+    h2 {
+        font-size: 1.6em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+
+    main section {
+        padding: 15px;
+    }
+
+    .palestrantes_card {
+        width: 100%;
+        padding: 20px;
+    }
+
+    form input[type="text"],
+    form input[type="email"] {
+        width: calc(100% - 20px); 
+        padding: 10px;
+    }
+
+    button[type="submit"] {
+        padding: 12px 20px;
+        font-size: 1.1em;
+    }
+}

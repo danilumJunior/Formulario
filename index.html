@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/colors.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/palestrantes.css">
+    <link rel="stylesheet" href="styles/forms.css">    
+    <link rel="stylesheet" href="styles/butons.css">
+    <link rel="stylesheet" href="styles/responsividade.css">
+    <title>Festinha de Boas-Vindas!</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho_container">
+            <h1>Festinha de Boas-Vindas!</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="sobre_evento">
+            <h2>Sobre a festa</h2>
+            <p><strong>Data:</strong> 30/05/2025</p>
+            <p><strong>Local:</strong> Caminho das Árvores, Salvador/Bahia</p>
+            <p><strong>Tema:</strong> Venha comemorar a festa de boas-vindas dos nossos novos vizinhos, traga bolos, bebidas, carnes e tudo que couber no seu bolso!!!</p>
+        </section>
+
+        <hr>
+
+        <section class="palestrantes_container">
+            <h2>Nossos Convidados</h2>
+            <div class="cards_wrapper">
+                <div class="palestrantes_card">
+                    <h3>Danilo Gentili</h3>
+                    <img src="img/Danilo_gentili.jpeg" class="imagens" alt="Foto de Danilo Gentili">
+                    <p class="biografia_img">Nosso apresentador, humorista irá fazer parte da nossa festa, trazendo boas risadas!</p>
+                </div>
+
+                <div class="palestrantes_card">
+                    <h3>Thiago Ventura</h3>
+                    <img src="img/Thiago_ventura.jpeg" class="imagens" alt="Foto de Thiago Ventura">
+                    <p class="biografia_img">Assim como Danilo, Thiago veio para somar nas risadas e nas boas piadas!</p>
+                </div>
+            </div>
+            </section>
+
+        <hr>
+
+        <section>
+            <h2>Inscreva-se na nossa festa e garanta sua vaga!!</h2>
+            <form>
+                <div>
+                    <label for="nomeCompletoInscricao">NOME COMPLETO:</label><br>
+                    <input type="text" id="nomeCompletoInscricao" name="nomeCompleto" placeholder="Seu nome" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="emailInscricao">E-MAIL:</label><br>
+                    <input type="email" id="emailInscricao" name="email" placeholder="seu.email@exemplo.com" required>
+                </div>
+                <br>
+
+                <p>Escolha a sua presença!</p>
+                <br>
+                <div>
+                    <input type="radio" id="presencial" name="tipoPresenca" value="presencial" required>
+                    <label for="presencial">Presencial</label>
+                </div>
+                <div>
+                    <input type="radio" id="online" name="tipoPresenca" value="online" required>
+                    <label for="online">On-line</label>
+                </div>
+                <br>
+
+                <div>
+                    <input type="checkbox" id="aceiteTermos" name="aceiteTermos" value="sim" required>
+                    <label for="aceiteTermos">Li e aceitei os <a href="#" target="_blank">Termos e Condições</a></label>
+                </div>
+                <br>
+
+                <div>
+                    <button type="submit">Inscrever-me</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Festinha de Boas-Vindas. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

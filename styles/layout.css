@@ -1,0 +1,32 @@
+
+header {
+    background-color: var(--cor-principal);
+    color: white;
+    padding-bottom: 40px;
+    box-shadow: 0 4px 10px var(--cor-sombra);
+    text-align: center;
+}
+.cabecalho_container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+main section {
+    background-color: white;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px var(--cor-sombra);
+    max-width: 900px;
+}
+.sobre_evento {
+    text-align: center;
+}
+.sobre_evento p {
+    font-size: 1.1em;
+    color: var(--cor-texto-claro);
+    margin-bottom: 10px;
+}
+.sobre_evento p strong {
+    color: var(--cor-texto-escuro);
+}

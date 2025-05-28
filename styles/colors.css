@@ -1,0 +1,15 @@
+
+:root {
+    --cor-principal: #3498DB;
+    --cor-secundaria: #2ECC71;
+    --cor-fundo: #F8F9FA;
+    --cor-texto-escuro: #34495E;
+    --cor-texto-claro: #7F8C8D;
+    --cor-borda: #E0E0E0;
+    --cor-sombra: rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto-escuro);
+}

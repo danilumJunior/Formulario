@@ -42,6 +42,7 @@ Este projeto é um convite digital para uma festa, desenvolvido com foco na prá
 
 ├── img/                        # Pasta para imagens
 
+Este projeto é um convite digital para uma festa, desenvolvido com foco na prática de HTML e CSS. Ele inclui:
 
 ├── css/                        # Pasta para todos os arquivos de estilo CSS
 │   ├── buttons.css             # Estilos para botões

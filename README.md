@@ -49,6 +49,7 @@ Você pode acessar uma demonstração ao vivo deste projeto diretamente no seu n
 ├── img/                        # Pasta para imagens
 
 ├── css/                        # Pasta para todos os arquivos de estilo CSS
+
 │   ├── buttons.css             # Estilos para botões
 
 │   ├── colors.css              # Definição de variáveis de cores

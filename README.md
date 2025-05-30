@@ -51,7 +51,7 @@ A landing page do **TechFuture Summit** é uma página da web moderna e que se a
 ## 📁 Estrutura de Pastas
 
 O projeto está organizado para facilitar a localização dos arquivos:
-
+```
 .
 ├── img/
 │   ├── palestrante1.jpg
@@ -70,6 +70,7 @@ O projeto está organizado para facilitar a localização dos arquivos:
 │   └── footer.css
 ├── index.html
 └── README.md
+```
 
 ---
 

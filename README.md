@@ -52,36 +52,24 @@ A landing page do **TechFuture Summit** é uma página da web moderna e que se a
 
 O projeto está organizado para facilitar a localização dos arquivos:
 
-├── index.html
-
+.
 ├── img/
-
 │   ├── palestrante1.jpg
-
-│   ├── palestrante2.jpg
-
+│   ├── palestrante2.jp
 │   └── tech.jpeg           <- Ícone da aba do navegador (favicon)
-└── styles/
-
-├── buttons.css
-
-├── colors.css
-
-├── forms.css
-
-├── general.css
-
-├── layout.css
-
-├── navigation.css
-
-├── palestrantes.css
-
-├── reset.css
-
-├── responsividade.css
-
-└── footer.css
+├── styles/
+│   ├── buttons.css
+│   ├── colors.css
+│   ├── forms.css
+│   ├── general.css
+│   ├── layout.css
+│   ├── navigation.css
+│   ├── palestrantes.css
+│   ├── reset.css
+│   ├── responsividade.css
+│   └── footer.css
+├── index.html
+└── README.md
 
 ---
 

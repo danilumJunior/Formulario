@@ -2,99 +2,116 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFuture Summit - TechConnect</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/colors.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/buttons.css">
     <link rel="stylesheet" href="styles/palestrantes.css">
-    <link rel="stylesheet" href="styles/forms.css">    
-    <link rel="stylesheet" href="styles/butons.css">
+    <link rel="stylesheet" href="styles/forms.css">
+    <link rel="stylesheet" href="styles/navigation.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/responsividade.css">
-    <title>Festinha de Boas-Vindas!</title>
+    <link rel="icon" href="img/tech.jpeg">
 </head>
-
 <body>
-    <header>
-        <div class="cabecalho_container">
-            <h1>Festinha de Boas-Vindas!</h1>
+
+    <header class="hero-section">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#sobre-evento">Sobre o Evento</a></li>
+                <li><a href="#palestrantes">Palestrantes</a></li>
+                <li><a href="#inscricao">Inscrição</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>TechFuture Summit</h1>
+            <p class="subtitle">Desvendando as tendências que moldarão o amanhã na tecnologia e no design.</p>
+            <p class="date-location">6 a 8 de Junho de 2025 | Centro de Convenções Unijorge</p>
+            <a href="#inscricao" class="btn btn-primary">Inscreva-se Agora!</a>
         </div>
     </header>
 
     <main>
-        <section class="sobre_evento">
-            <h2>Sobre a festa</h2>
-            <p><strong>Data:</strong> 30/05/2025</p>
-            <p><strong>Local:</strong> Caminho das Árvores, Salvador/Bahia</p>
-            <p><strong>Tema:</strong> Venha comemorar a festa de boas-vindas dos nossos novos vizinhos, traga bolos, bebidas, carnes e tudo que couber no seu bolso!!!</p>
+        <section id="sobre-evento" class="about-section">
+            <h2 class="section-title">🚀 Sobre o TechFuture Summit</h2>
+            <p>O <strong>TechFuture Summit</strong> é o principal evento da <strong>TechConnect</strong>, reunindo mentes brilhantes de desenvolvimento e design para explorar as inovações que estão redefinindo nosso mundo digital. Com palestras inspiradoras, workshops práticos e oportunidades de networking, o Summit é o lugar ideal para se conectar, aprender e crescer.</p>
+            <p>Prepare-se para três dias de imersão total em inteligência artificial, realidade virtual, blockchain, UX/UI de próxima geração e muito mais. Não perca a chance de estar à frente das transformações!</p>
         </section>
 
-        <hr>
-
-        <section class="palestrantes_container">
-            <h2>Nossos Convidados</h2>
-            <div class="cards_wrapper">
-                <div class="palestrantes_card">
-                    <h3>Danilo Gentili</h3>
-                    <img src="img/Danilo_gentili.jpeg" class="imagens" alt="Foto de Danilo Gentili">
-                    <p class="biografia_img">Nosso apresentador, humorista irá fazer parte da nossa festa, trazendo boas risadas!</p>
+        <section id="palestrantes" class="speakers-section">
+            <h2 class="section-title">🗣️ Nossos Palestrantes</h2>
+            <div class="speaker-grid">
+                <div class="speaker-card">
+                    <img src="img/Felipe_neto.jpeg" alt="Foto de Felipe Neto">
+                    <h3>Felipe Neto</h3>
+                    <p class="speaker-title">Especialista em IA e Machine Learning</p>
+                    <p class="speaker-bio">Líder de pesquisa na NeuroTech Solutions, Felipe é pioneiro em algoritmos de aprendizado adaptativo para sistemas inteligentes.</p>
                 </div>
 
-                <div class="palestrantes_card">
-                    <h3>Thiago Ventura</h3>
-                    <img src="img/Thiago_ventura.jpeg" class="imagens" alt="Foto de Thiago Ventura">
-                    <p class="biografia_img">Assim como Danilo, Thiago veio para somar nas risadas e nas boas piadas!</p>
+                <div class="speaker-card">
+                    <img src="img/Lucas_neto.jpeg" alt="Foto de Lucas Neto">
+                    <h3>Lucas neto</h3>
+                    <p class="speaker-title">Arquiteto de Experiência do Usuário (UX)</p>
+                    <p class="speaker-bio">Com 15 anos de experiência, Lucas é conhecido por criar interfaces intuitivas que transformam a interação digital.</p>
                 </div>
-            </div>
-            </section>
 
-        <hr>
+                </div>
+        </section>
 
-        <section>
-            <h2>Inscreva-se na nossa festa e garanta sua vaga!!</h2>
-            <form>
-                <div>
-                    <label for="nomeCompletoInscricao">NOME COMPLETO:</label><br>
-                    <input type="text" id="nomeCompletoInscricao" name="nomeCompleto" placeholder="Seu nome" required>
+        <section id="inscricao" class="registration-section">
+            <h2 class="section-title">📝 Garanta Sua Vaga!</h2>
+            
+            <p>Preencha o formulário abaixo para confirmar sua presença no TechFuture Summit. As vagas são limitadas!</p>
+            <form class="registration-form">
+                <div class="form-group">
+                    <label for="name">Nome Completo:</label>
+                    <input type="text" id="name" name="name" required>
                 </div>
-                <br>
-
-                <div>
-                    <label for="emailInscricao">E-MAIL:</label><br>
-                    <input type="email" id="emailInscricao" name="email" placeholder="seu.email@exemplo.com" required>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
                 </div>
-                <br>
-
-                <p>Escolha a sua presença!</p>
-                <br>
-                <div>
-                    <input type="radio" id="presencial" name="tipoPresenca" value="presencial" required>
-                    <label for="presencial">Presencial</label>
+                <div class="form-group">
+                    <label for="company">Empresa (Opcional):</label>
+                    <input type="text" id="company" name="company">
                 </div>
-                <div>
-                    <input type="radio" id="online" name="tipoPresenca" value="online" required>
-                    <label for="online">On-line</label>
+                <div class="form-group">
+                    <label for="role">Cargo (Opcional):</label>
+                    <input type="text" id="role" name="role">
                 </div>
-                <br>
-
-                <div>
-                    <input type="checkbox" id="aceiteTermos" name="aceiteTermos" value="sim" required>
-                    <label for="aceiteTermos">Li e aceitei os <a href="#" target="_blank">Termos e Condições</a></label>
+                <div class="form-group">
+                    <label for="presence-type">Tipo de Presença:</label>
+                    <select id="presence-type" name="presence-type">
+                        <option value="presencial">Presencial</option>
+                        <option value="online">Online</option>
+                    </select>
                 </div>
-                <br>
-
-                <div>
-                    <button type="submit">Inscrever-me</button>
-                </div>
+                <button type="submit" class="btn btn-secondary">Confirmar Inscrição</button>
             </form>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2025 Festinha de Boas-Vindas. Todos os direitos reservados.</p>
+    <footer id="contato">
+        <h2 class="section-title">🤝 Conecte-se Conosco</h2>
+        <p>Sinta-se à vontade para entrar em contato com a equipe TechConnect para dúvidas, parcerias ou mais informações sobre o TechFuture Summit.</p>
+        <ul class="contact-list">
+            <li><strong>Organização:</strong> Unijorge Startup</li>
+            <li><strong>E-mail:</strong> <a href="danilojunior2016@outlook.com">danilojunior2016@outlook.com</a></li>
+            <li><strong>Telefone:</strong> <a href="tel:+557198712214">(71) 99871-2214</a></li>
+            <li><strong>Endereço:</strong> Unijorge, 123 - Pararela - BA</li>
+        </ul>
+        <div class="social-links">
+            <p>Siga-nos nas redes sociais:</p>
+            <a href="https://www.linkedin.com/in/danilo-bomfim-moreira-junior-b92b9b263/" target="_blank">LinkedIn</a>
+            <a href="https://x.com/Danilum_Junior" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/danilojunior_bm/" target="_blank">Instagram</a>
+        </div>
+        <p class="copyright">&copy; 2025 TechConnect. Todos os direitos reservados.</p>
     </footer>
 
 </body>
-
 </html>
